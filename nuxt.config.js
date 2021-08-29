@@ -1,3 +1,10 @@
+// only add `router.base = '/<repository_name>/'` if `DEPLOY_ENV` is `GH_PAGES`
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+  router: {
+    base: '/youtube_demo/'
+  }
+} : {}
+
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -44,4 +51,7 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   },
+  router: {
+    base: '/youtube_demo/'
+  }
 }
