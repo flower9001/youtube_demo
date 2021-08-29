@@ -31,16 +31,16 @@
 </template>
 
 <script>
-import Header from "~components/Header"
-import Footer from "~components/Footer"
-import girl from "~assets/images/girl.jpg"
-import music_icon from "~assets/images/music_icon.jpg"
-import ghost from "~assets/images/ghost.png"
-import ghost_icon from "~assets/images/ghost_icon.jpg"
-import cat from "~assets/images/cat.png"
-import idle_icon from "~assets/images/idle_icon.jpg"
-import suraimu from "~assets/images/suraimu.png"
-import muse_icon from "~assets/images/muse_icon.jpg"
+import Header from "~/components/Header"
+import Footer from "~/components/Footer"
+import girl from "~/assets/images/girl.jpg"
+import music_icon from "~/assets/images/music_icon.jpg"
+import ghost from "~/assets/images/ghost.png"
+import ghost_icon from "~/assets/images/ghost_icon.jpg"
+import cat from "~/assets/images/cat.png"
+import idle_icon from "~/assets/images/idle_icon.jpg"
+import suraimu from "~/assets/images/suraimu.png"
+import muse_icon from "~/assets/images/muse_icon.jpg"
 
 export default {
   data() {
