@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'youtube_demo',
+    title: 'YouTube_demo',
     htmlAttrs: {
       lang: 'zh-Hant-TW'
     },
@@ -43,5 +43,5 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
 }
