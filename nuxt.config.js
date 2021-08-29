@@ -56,6 +56,6 @@ export default {
   build: {
   },
   router: {
-    base: '/youtube_demo/'
+    base: '../'
   }
 }
